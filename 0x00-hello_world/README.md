@@ -33,3 +33,7 @@ generate an executable file .
 ## Task 5 :
 
    printf function prints to terminal 
+
+## Task 6 :
+
+   print size of data types using sizeof function .
