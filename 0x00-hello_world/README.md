@@ -13,8 +13,14 @@ preprocassing file in var $CFILE and output it on c file !
 
 compile file in var $CFILE
 
-## Assembling
+## Task 2 :
 
    gcc -S $CFILE
 
 assemble file in var $CFILE
+
+## Task 3 :
+
+   gcc $CFILE -o cisfun
+
+generate an executable file .
