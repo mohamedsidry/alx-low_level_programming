@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*
-*main-function
-*script that prints
-*"Programming is like building a multilingual puzzle to timinal
+/**
+*main - is a function that run when execute the code .
+*puts - is a function that prints to terminal
+*return (0) code is good !
 */
-int main(void){
-
+int main(void)
+{
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
