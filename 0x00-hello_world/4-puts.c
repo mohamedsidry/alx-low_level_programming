@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 *main - is a function that run when execute the code .
-*puts - is a function that prints to terminal
-*return (0) code is good !
+*puts - is a function that prints to terminal .
+*return (0) - code is good !
 */
 int main(void)
 {
