@@ -24,3 +24,8 @@ assemble file in var $CFILE
    gcc $CFILE -o cisfun
 
 generate an executable file .
+
+## Task 4
+
+   puts("\"Programming is like building a multilingual puzzle");
+   using puts function to print "Programming is like building a multilingual puzzle to terminal .
