@@ -25,7 +25,11 @@ assemble file in var $CFILE
 
 generate an executable file .
 
-## Task 4
+## Task 4 :
 
    puts("\"Programming is like building a multilingual puzzle");
    using puts function to print "Programming is like building a multilingual puzzle to terminal .
+
+## Task 5 :
+
+   printf function prints to terminal 
