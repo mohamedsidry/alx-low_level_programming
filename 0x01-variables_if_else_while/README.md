@@ -10,4 +10,9 @@
 
 ## Task 2
 
-   print lowercase 
+   print lowercase with help of ASCII
+
+## Task 3
+
+   print lowercase with help pf ASCII and Uppercase with help of Array .
+   
