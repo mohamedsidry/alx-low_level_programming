@@ -17,7 +17,7 @@ for (i = 97; i < 123 ; i++)
 char c = i;
 putchar(c);
 }
-for (j = 0; j < 27 ; j++)
+for (j = 0; j < 26 ; j++)
 {
 putchar(alpha[j]);
 }
