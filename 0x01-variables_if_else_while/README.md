@@ -7,3 +7,7 @@
 ## Task 1
 
    the last digit of int 
+
+## Task 2
+
+   print lowercase 
