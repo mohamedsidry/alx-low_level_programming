@@ -10,10 +10,10 @@
 
 int main(void)
 {
-
-for (int n = 97; n < 123 ; n++)
+int i;
+for (i = 97; i < 123 ; i++)
 {
-char c = n;
+char c = i;
 putchar(c);
 }
 putchar('\n');
