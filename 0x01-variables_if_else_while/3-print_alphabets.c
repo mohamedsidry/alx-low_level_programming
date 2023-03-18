@@ -11,7 +11,7 @@
 int main(void)
 {
 int i, j;
-char alpha[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ$";
+char alpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 for (i = 97; i < 123 ; i++)
 {
 char c = i;
