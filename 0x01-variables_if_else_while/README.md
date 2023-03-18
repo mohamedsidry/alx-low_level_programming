@@ -24,4 +24,10 @@
 
 ## Task 5
 
-   loop on work 
+   loop on work
+
+
+## Task 6
+
+   ASCII always help
+
