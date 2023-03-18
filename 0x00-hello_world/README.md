@@ -37,3 +37,10 @@ generate an executable file .
 ## Task 6 :
 
    print size of data types using sizeof function .
+
+## Task 7 :
+   
+   Generate Assamble code .
+
+
+ 
