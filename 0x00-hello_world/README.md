@@ -42,5 +42,9 @@ generate an executable file .
    
    Generate Assamble code .
 
+## Task 8 :
+
+   print a quote "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+   using write function .
 
  
