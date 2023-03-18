@@ -39,4 +39,8 @@
 ## Task 8
 
   Hexadicimal 123456789abcdef base 16
-  
+
+
+## Task 9
+
+   1 ,2 ,...,9 
