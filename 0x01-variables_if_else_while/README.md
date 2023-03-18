@@ -15,4 +15,8 @@
 ## Task 3
 
    print lowercase with help pf ASCII and Uppercase with help of Array .
-   
+
+
+## Task 4
+
+   ASCII with if can do a lot .
