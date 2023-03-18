@@ -20,3 +20,8 @@
 ## Task 4
 
    ASCII with if can do a lot .
+
+
+## Task 5
+
+   loop on work 
