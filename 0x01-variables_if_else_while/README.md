@@ -34,4 +34,9 @@
 ## Task 7
 
    reverse task 2 hahahaha
-   
+
+
+## Task 8
+
+  Hexadicimal 123456789abcdef base 16
+  
