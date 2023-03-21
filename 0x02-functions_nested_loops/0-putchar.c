@@ -10,7 +10,7 @@
 int main(void)
 {
 char *var = "_putchar";
-int i;
+int i =0;
 
 for (i; i < 8 ; i++)
 {
