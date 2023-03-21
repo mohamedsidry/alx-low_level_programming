@@ -17,7 +17,7 @@ r = n;
 }
 else
 {
-r = n * (-1)
+r = n * (-1);
 }
 return (r);
 }
