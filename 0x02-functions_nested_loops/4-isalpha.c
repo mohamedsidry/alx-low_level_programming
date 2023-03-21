@@ -9,7 +9,7 @@
 int _isalpha(int c)
 {
 int n;
-if ((c > 64 && c < 91) || (c > 96 && c < 123))
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 n = 1;
 }
