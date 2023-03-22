@@ -24,6 +24,6 @@ t = -n;
 }
 r = t % 10;
 c = (char)r;
-_putchar(c)
+ _putchar(c);
 return (r);
 }
