@@ -25,7 +25,7 @@ printf(" Buzz");
 }
 else
 {
-if (i ==1)
+if (i == 1)
 {
 printf("%d", i);
 }
