@@ -42,6 +42,10 @@ if (j < n)
 {
 _putchar(',');
 }
+else
+{
+_putchar(' ');
+}
 }
 _putchar('\n');
 }
