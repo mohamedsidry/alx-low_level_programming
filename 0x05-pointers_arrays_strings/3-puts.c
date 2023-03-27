@@ -12,7 +12,7 @@
 
 void _puts(char *str)
 {
-int i;
+int i = 0 ;
 while (str[i])
 {
 char c = str[i];
