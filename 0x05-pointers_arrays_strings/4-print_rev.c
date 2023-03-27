@@ -10,16 +10,14 @@
 void print_rev(char *str)
 {
 int len = 0;
-int i;
 while (str[len])
 {
 len++;
 }
 
-for (i = len ; i >= 0; i--)
-{
-char c = str[i];
-_putchar(c);
+while (len--)
+{ 
+_putchar(str[len]);
 }
 _putchar('\n');
 }
