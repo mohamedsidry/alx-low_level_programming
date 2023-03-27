@@ -10,8 +10,8 @@
 
 int _strlen(char *str)
 {
-int r;
-while (*(str + r) != 0)
+int r = 0;
+while (str[r])
 {
 r++;
 }
