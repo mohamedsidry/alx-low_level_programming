@@ -16,7 +16,7 @@ len++;
 }
 
 while (len--)
-{ 
+{
 _putchar(str[len]);
 }
 _putchar('\n');
