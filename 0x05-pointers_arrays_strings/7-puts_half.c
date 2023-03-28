@@ -24,7 +24,7 @@ else
 {
 half_len = (len / 2) + 1;
 }
-while (half_len <= len)
+while (half_len < len)
 {
 _putchar(str[half_len]);
 half_len++;
