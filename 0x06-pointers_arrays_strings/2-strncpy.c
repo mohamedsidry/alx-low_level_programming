@@ -13,37 +13,14 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-int i = 0;
-int len_of_src = 0;
-int len_of_dest = 0;
- 
-while (src[len_of_src] != '\n')
+int bytes;
+for (bytes = 0 ; bytes < n && src[bytes] != '\0' ; bytes++)
 {
-len_of_src++;
+dest[bytes] = src[bytes];
 }
-
-while (dest[len_of_dest] != '\0')
+for ( ; bytes < n ; bytes++)
 {
-len_of_dest++;
+dest[bytes] = '\0';
 }
- 
-while (src[i] != '\0' && i < n)
-{
-dest[i] = src[i];
-i++;
-}
-
-while (dest[i] != '\0' && i < len_of_src)
-{
-dest[i] = dest[i];
-i++;
-}
-
-while (dest[i] != '\0' && i > len_of_src && i < len_of_dest)
-{
-  dest[i] = '\0';
-  i++;
-}
-
 return (dest);
 }
