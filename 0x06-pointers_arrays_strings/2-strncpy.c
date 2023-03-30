@@ -38,16 +38,12 @@ while (dest[i] != '\0' && i < len_of_src)
 dest[i] = dest[i];
 i++;
 }
-/**
+
 while (dest[i] != '\0' && i > len_of_src && i < len_of_dest)
 {
   dest[i] = '\0';
   i++;
 }
-*/
-for(i = len_of_src ; i < len_of_dest ; i++)
-{
-  dest[i] = '\0';
-}
+
 return (dest);
 }
