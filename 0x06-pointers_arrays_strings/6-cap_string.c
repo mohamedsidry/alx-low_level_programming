@@ -14,16 +14,16 @@ char *cap_string(char *str)
 {
 int len = 0;
 int i;
- char c[] ={' ', '.', '\t', '\n','{','}',',','(',')',';'};
+char c[] = {' ', '.', '\t', '\n', '{', '}', ',', '(', ')', ';'};
 while (str[len] != '\0')
 {
-  for (i = 0 ; i < 10 ; i++)
-    {
-      if (str[len] == c[i] && str[len + 1] >= 'a' && str[len + 1] <= 'z')
-	{
-	  str[len + 1] = str[len + 1] - ' ';
-	}
-    }
+for (i = 0 ; i < 10 ; i++)
+{
+if (str[len] == c[i] && str[len + 1] >= 'a' && str[len + 1] <= 'z')
+{
+str[len + 1] = str[len + 1] - ' ';
+}
+}
 len++;
 }
 return (str);
