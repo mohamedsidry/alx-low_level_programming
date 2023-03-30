@@ -21,10 +21,6 @@ for (i = 0 ; i < 12 ; i++)
 {
 if (str[len] == c[i] && str[len + 1] >= 'a' && str[len + 1] <= 'z')
 {
-if (str[len] == '\t')
-{
-str[len] = ' ';
-}
 str[len + 1] = str[len + 1] - ' ';
 }
 }
