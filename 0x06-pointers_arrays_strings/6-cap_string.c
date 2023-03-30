@@ -12,9 +12,15 @@
 
 char *cap_string(char *str)
 {
-int len = 0;
+int len = 1;
 int i;
 char c[] = {' ', '.', '\t', '\n', '{', '}', ',', '(', ')', ';', '!', '?'};
+
+
+if (str[0] >= 'a' && str[0] <= 'z')
+{
+str[0] = str[0] - ' ';
+}
 while (str[len] != '\0')
 {
 for (i = 0 ; i < 12 ; i++)
