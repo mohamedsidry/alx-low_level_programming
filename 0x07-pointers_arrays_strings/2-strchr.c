@@ -26,12 +26,9 @@ for (i = 0 ; i < len ; i++)
 if (src[i] == c)
 {
 src = &src[i];
-break;
-}
-else if (i + 1 == len)
-{
-src = '\0';
-}
-}
 return (src);
+}
+
+}
+return ('\0');
 }
