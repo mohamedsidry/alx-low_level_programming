@@ -30,7 +30,7 @@ break;
 }
 else if (i + 1 == len)
 {
-*src = '\0';
+src = '\0';
 }
 }
 return (src);
