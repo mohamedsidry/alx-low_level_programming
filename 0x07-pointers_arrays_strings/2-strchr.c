@@ -25,7 +25,7 @@ for (i = 0 ; i < len ; i++)
 {
 if (src[i] == c)
 {
-src = &src[i];
+src = src + i;
 return (src);
 }
 
