@@ -14,10 +14,15 @@
 void _puts_recursion(char *s)
 
 {
-while (*s)
+if (!*s)
+{
+s = s--;
+_putchar('\n');
+}
+else
 {
 _putchar(*s);
 s++;
+_puts_recursion(s);
 }
-_putchar('\n');
 }
