@@ -9,3 +9,6 @@ task 2 : count the length of string using recursion .
 task 3 : calculate the factorial of given number .
 
 task 4 : calculate the power using recursion .
+
+task 5 : calculate the root of given square number .
+
