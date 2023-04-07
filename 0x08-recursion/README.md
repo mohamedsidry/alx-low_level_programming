@@ -13,3 +13,5 @@ task 4 : calculate the power using recursion .
 task 5 : calculate the root of given square number .
 
 task 6 :  function that returns 1 if the input integer is a prime number, otherwise return 0.
+
+task 7 : check if string is a palindrome (can be readed from both sides !) .
