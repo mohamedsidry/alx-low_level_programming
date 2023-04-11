@@ -6,4 +6,4 @@
 
 [x] - Task 2 - print command line argumants one by one followed by new line .
 
-
+[x] - Task 2 - print result of multipling the 2nd cmd arg with 3rd cmd arg if possible alse print Error .
