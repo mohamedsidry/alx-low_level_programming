@@ -28,9 +28,17 @@ len++;
 }
 }
 dupstr = malloc(sizeof(char) * (len + 1));
+
+if (dupstr == NULL)
+{
+return (NULL);
+}
+else
+{
 for (i = 0 ; str[i] ; i++)
 {
 dupstr[i] = str[i];
+}
 }
 return (dupstr);
 }
