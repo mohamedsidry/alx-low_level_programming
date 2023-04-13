@@ -28,7 +28,14 @@ s2 = "";
 }
 lenOfS1 = getLen(s1);
 lenOfS2 = getLen(s2);
+if (n >= lenOfS2)
+{
+newstr = malloc(sizeof(char) * (lenOfS1 + lenOfS2 + 1));
+}
+else
+{
 newstr = malloc(sizeof(char) * (lenOfS1 + n + 1));
+}
 if (newstr == NULL)
 {
 return (NULL);
@@ -45,7 +52,7 @@ for (i = 0 ; i < lenOfS2 ; i++)
 {
 newstr[i + lenOfS1] = s2[i];
 }
-newstr[ i + lenOfS1 + 1] = '\0';
+newstr[i + lenOfS1 + 1] = '\0';
 }
 else
 {
@@ -53,7 +60,7 @@ for (i = 0 ; i < n ; i++)
 {
 newstr[i + lenOfS1] = s2[i];
 }
-newstr[ i + n + 1] = '\0';
+newstr[i + n + 1] = '\0';
 }
 
 }
