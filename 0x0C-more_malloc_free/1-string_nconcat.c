@@ -45,6 +45,7 @@ for (i = 0 ; i < lenOfS2 ; i++)
 {
 newstr[i + lenOfS1] = s2[i];
 }
+newstr[ i + lenOfS1 + 1] = '\0';
 }
 else
 {
@@ -52,7 +53,9 @@ for (i = 0 ; i < n ; i++)
 {
 newstr[i + lenOfS1] = s2[i];
 }
+newstr[ i + n + 1] = '\0';
 }
+
 }
 return (newstr);
 }
