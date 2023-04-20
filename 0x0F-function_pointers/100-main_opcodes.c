@@ -31,12 +31,12 @@ exit(ERROR2);
 arr = (char *)main;
 for (i = 0 ; i < number_of_bytes ; i++)
 {
-if (i == number_of_bytes + 1)
+printf("%.2hhx ", arr[i]);
+if (i == number_of_bytes - 1)
 {
-printf("%02hhx\n", arr[i]);
-break;
+printf(" ");
 }
-printf("%02hhx ", arr[i]);
+
 }
 printf("\n");
 return (0);
