@@ -18,7 +18,7 @@ char *op;
 if (argc != 4)
 {
 printf("Error\n");
-return (ERROR98);
+return (98);
 }
 input1 = atoi(argv[1]);
 input2 = atoi(argv[3]);
@@ -26,12 +26,12 @@ op = argv[2];
 if (get_op_func(op) == NULL || op[1] != '\0')
 {
 printf("Error\n");
-return (ERROR99);
+return (99);
 }
 if (input2 == 0 && (*op == '/' || *op == '%'))
 {
 printf("Error\n");
-return (ERROR100);
+return (100);
 }
 result = get_op_func(op)(input1, input2);
 printf("%d\n", result);

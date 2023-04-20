@@ -5,9 +5,9 @@
 #include <stdlib.h>
 
 
-#define ERROR98 98 /**the number of arguments is wrong !**/
-#define ERROR99 99  /**Choose a valid operation !**/
-#define ERROR100 100 /** Wrong  divison ! **/
+
+
+
 
 
 /**
