@@ -45,3 +45,15 @@
  - Prototype: void free_listint(listint_t *head) .
 
 
+
+
+## TASK 5. Free :
+
+
+ -  function that frees a listint_t list.
+
+ - Prototype: void free_listint(listint_t *head) .
+
+ - The function sets the head to NULL .
+
+
