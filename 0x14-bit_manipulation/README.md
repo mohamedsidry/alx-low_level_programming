@@ -16,3 +16,9 @@
 ## Tasks  1. 1 :
 
  - function that prints the binary representation of a number.
+
+
+## Tasks  2. 10 :
+
+
+ - function that returns the value of a bit at a given index .
