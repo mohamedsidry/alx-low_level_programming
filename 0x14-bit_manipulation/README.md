@@ -13,3 +13,6 @@
    - b is NULL
 
 
+## Tasks  1. 1 :
+
+ - function that prints the binary representation of a number.
