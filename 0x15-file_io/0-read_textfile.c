@@ -15,13 +15,11 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 
-size_t pid;
+int pid;
 char *buffer;
 size_t bytes;
 size_t printed_bytes;
 
-if (filename == NULL)
-return (0);
 pid = open(filename, O_RDONLY);
 
 if (pid == -1)
