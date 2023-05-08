@@ -22,11 +22,13 @@ int written;
 if (filename == NULL)
 return (-1);
 
+if (text_content != NULL)
+{
 while (text_content[len])
 {
 len++;
 }
-
+}
 pid = open(filename, O_CREAT | O_RDWR | O_TRUNC, PERMESSION);
 if (pid == -1)
 {
