@@ -8,4 +8,6 @@
 
 ## [TASK 2] - count the length of string using recursion .
 
-## [TASK 2] - count the factorial of given number using recursion .
+## [TASK 3] - count the factorial of given number using recursion .
+
+## [TASK 4] - calculate x power of y using recursion .
