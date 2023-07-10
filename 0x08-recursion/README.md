@@ -15,3 +15,5 @@
 ## [TASK 5] - find the natural square root of given number using recursion .
 
 ## [TASK 6] - check if prim number using recursion .
+
+## [TASK 7] - check if if a string is a palindrome using recursion .
