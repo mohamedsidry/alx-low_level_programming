@@ -17,3 +17,5 @@
 ## [TASK 6] - check if prim number using recursion .
 
 ## [TASK 7] - check if if a string is a palindrome using recursion .
+
+## [TASK 7] - compare two strings using recursion .
