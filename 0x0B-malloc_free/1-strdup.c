@@ -24,7 +24,7 @@ char *sptr;
 size = _getlen(str);
 
 
-if (size == 0 || !str)
+if (size == 0 || str == NULL)
 {
 return (NULL);
 }
