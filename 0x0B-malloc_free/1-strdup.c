@@ -21,18 +21,19 @@ char *_strdup(char *str)
 unsigned int size;
 char *sptr;
 
-size = _getlen(str);
 
 
-if (size == 0 || str == NULL)
+
+if ( str == NULL)
 {
 return (NULL);
 }
 else
 {
+size = _getlen(str);
 sptr = malloc(sizeof(char) * size + 1);
 }
-if (!sptr)
+if (sptr == NULL)
 {
 return (NULL);
 }
