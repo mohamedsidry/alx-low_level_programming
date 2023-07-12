@@ -9,3 +9,4 @@
 
 - [Task 3] : function that Allocate 2d grid and initialize it to 0  .
 
+- [Task 4] : function that frees 2d grid .
