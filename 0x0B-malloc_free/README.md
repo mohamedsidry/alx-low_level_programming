@@ -5,3 +5,5 @@
 
 - [Task 1] : function that creates an array , and copy a string to it .
 
+- [Task 2] : function that concatenate two strings  .
+
