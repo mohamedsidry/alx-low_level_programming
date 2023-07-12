@@ -13,7 +13,7 @@
 int main(int argc, char *argv[] __attribute__((unused)))
 {
 
-printf("%u\n", argc);
+printf("%u\n", argc - 1);
 
 return (0);
 }
