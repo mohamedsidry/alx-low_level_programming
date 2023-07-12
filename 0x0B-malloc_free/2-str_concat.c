@@ -21,6 +21,11 @@ unsigned int s2_len;
 unsigned int i = 0, j = 0;
 char *ptr;
 
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+
 s1_len = string_len(s1);
 s2_len = string_len(s2);
 len = s1_len + s2_len;
@@ -63,10 +68,6 @@ unsigned int string_len(char *str)
 {
 
 unsigned int i = 0;
-
-
-if (str == NULL)
-str = "";
 
 
 while (str[i] != '\0')
