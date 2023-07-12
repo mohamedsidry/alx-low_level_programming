@@ -7,3 +7,5 @@
 
 - [Task 2] : function that concatenate two strings  .
 
+- [Task 3] : function that Allocate 2d grid and initialize it to 0  .
+
