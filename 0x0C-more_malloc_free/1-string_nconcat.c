@@ -18,13 +18,14 @@ void mem_init(char *ptr, char *str1, char *str2, unsigned int n);
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *ptr;
-unsigned int s1len, s2len;
+unsigned int s1len;
 unsigned int totlen;
+char *empti ="";
 
 if (s1 == NULL)
-s1 == "";
+s1 = empti;
 if (s2 == NULL)
-s2 = "";
+s2 = empti;
 
 s1len = getlen(s1);
 
