@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/*** MACROS ***/
+
+#define ENDBYTE 1
 
 /**
 * struct dog - is a new data type.
