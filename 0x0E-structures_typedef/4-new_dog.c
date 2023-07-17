@@ -56,6 +56,7 @@ return (my_dog);
 void *_strcpy(char *strn, char *stro, dog_t *dog)
 {
 
+int i;
 int strNlen = _strlen(strn);
 int strOlen = _strlen(stro);
 
@@ -63,12 +64,29 @@ dog->name = malloc(sizeof(char) * strNlen + ENDBYTE);
 
 if (dog->name == NULL)
 return (NULL);
+else
+{
+
+for (i = 0; i <= strNlen; i++)
+{
+dog->name[i] = strn[i];
+}
+
+}
 
 dog->owner = malloc(sizeof(char) * strOlen + ENDBYTE);
 
 if (dog->owner == NULL)
 return (NULL);
+else
+{
 
+for (i = 0; i <= strOlen; i++)
+{
+dog->owner[i] = stro[i];
+}
+
+}
 return (dog);
 }
 
