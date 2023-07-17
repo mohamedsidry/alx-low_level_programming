@@ -18,7 +18,6 @@ int _strlen(char *str);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *my_dog;
-int nLen, oLen;
 
 my_dog = malloc(sizeof(dog_t));
 
