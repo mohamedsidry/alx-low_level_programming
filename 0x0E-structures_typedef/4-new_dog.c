@@ -1,7 +1,7 @@
 #include "dog.h"
 
 
-void *_strcpy(char *strn, char *stro, dog_t *dog);
+void _strcpy(char *strtext, char *strheap);
 int _strlen(char *str);
 
 
@@ -18,24 +18,31 @@ int _strlen(char *str);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *my_dog;
-void *ret;
+int nLen, oLen;
 
 my_dog = malloc(sizeof(dog_t));
 
 if (my_dog == NULL)
 return (NULL);
 
-ret = _strcpy(name, owner, my_dog);
-
-if (ret == NULL)
+my_dog->name = malloc(sizeof(char) * _strlen(name) + ENDBYTE);
+if (my_dog->name == NULL)
 {
 free(my_dog);
 return (NULL);
 }
 
-my_dog->name = name;
+my_dog->owner = malloc(sizeof(char) * _strlen(owner) + ENDBYTE);
+if (my_dog->owner == NULL)
+{
+free(my_dog->name);
+free(my_dog);
+return (NULL);
+}
+
+_strcpy(name, my_dog->name);
+_strcpy(owner, my_dog->owner);
 my_dog->age = age;
-my_dog->owner = owner;
 
 return (my_dog);
 
@@ -45,49 +52,21 @@ return (my_dog);
 /**
 * _strcpy - copy string to heap.
 *
-* @strn: dog name .
-* @stro: owner name .
-* @dog: pointer to struct dog .
-*
-* Return: just to check if allocation failed . null = falied .
+* @strtext: sttring in  text section .
+* @strheap: dynamic allocated string .
 *
 */
 
-void *_strcpy(char *strn, char *stro, dog_t *dog)
+void _strcpy(char *strtext, char *strheap)
 {
-
-int i;
-int strNlen = _strlen(strn);
-int strOlen = _strlen(stro);
-
-dog->name = malloc(sizeof(char) * strNlen + ENDBYTE);
-
-if (dog->name == NULL)
-return (NULL);
-else
+int i = 0;
+while (strtext[i] != '\0')
 {
-
-for (i = 0; i <= strNlen; i++)
-{
-dog->name[i] = strn[i];
+strheap[i] = strtext[i];
+i++;
 }
 
-}
-
-dog->owner = malloc(sizeof(char) * strOlen + ENDBYTE);
-
-if (dog->owner == NULL)
-return (NULL);
-else
-{
-
-for (i = 0; i <= strOlen; i++)
-{
-dog->owner[i] = stro[i];
-}
-
-}
-return (dog);
+strheap[i] = strtext[i];
 }
 
 /**
