@@ -1,6 +1,12 @@
 #ifndef DOG_H
 #define DOG_H
 
+/*** STANDARD LIBRARY ***/
+
+#include <stdlib.h>
+
+
+
 /**
 * struct dog - is a new data type.
 *
