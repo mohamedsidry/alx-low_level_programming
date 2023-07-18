@@ -11,3 +11,5 @@
 - [TASK 3] : define a new name for struct (shorten ).
 
 - [TASK 4] : function that creates a new dog .
+
+- [TASK 5] : function that frees allocated space from heap .
