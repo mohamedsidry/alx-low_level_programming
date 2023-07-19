@@ -3,7 +3,6 @@
 
 /*** STANDARD LIBRARIES ***/
 #include <stddef.h>
-#include <stdio.h>
 
 /*** FUNCTIONS PROTOTYPES ***/
 
