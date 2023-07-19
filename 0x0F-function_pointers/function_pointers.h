@@ -2,6 +2,8 @@
 #define MAIN_H
 
 /*** STANDARD LIBRARIES ***/
+#include <stddef.h>
+
 
 /*** FUNCTIONS PROTOTYPES ***/
 
