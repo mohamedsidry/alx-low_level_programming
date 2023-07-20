@@ -8,6 +8,6 @@
 
 - [TASK 2] : function that searches for an integer.
 
-- [] :
+- [TASK 3] : program that prefurm basic math operations .
 
 - [] : 
