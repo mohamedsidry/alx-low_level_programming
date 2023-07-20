@@ -36,8 +36,7 @@ printf("Errror\n");
 exit(99);
 }
 
-if (((argv[2][0] == '/') || (argv[2][0] == '%')) && (b == 0))
-
+if (((argv[2][0] == '/' || argv[2][0] == '%') && b == 0))
 {
 printf("Error\n");
 exit(100);
