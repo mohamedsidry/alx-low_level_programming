@@ -4,10 +4,7 @@
 
 - [TASK 1] : function that prints all given int args separeted by separator .
 
-- [] : .
+- [TASK 2] : function that prints strings, followed by a new line. .
 
 - [] : .
 
-- [] : .
-
-- [] : .
