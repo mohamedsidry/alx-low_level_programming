@@ -6,5 +6,5 @@
 
 - [TASK 2] : function that prints strings, followed by a new line. .
 
-- [] : .
+- [TASK 3] : function that prints all types .
 
